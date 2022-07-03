@@ -1,3 +1,40 @@
-.orange {
-  color: orange;
+body {
+  font-family: "roboto", sans-serif;
+}
+.logo {
+  font-family: "raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+.blue {
+  color: #2196f3;
+}
+a:link {
+  text-decoration: none;
+}
+.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.link {
+  color: black;
+}
+.link:hover {
+  color: #2196f3;
+}
+link:focus {
+  color: #2196f3;
+}
+.filters {
+  font-weight: 500;
+  font-size: 16px;
+}
+h4 {
+  font-weight: 700;
+  font-size: 18px;
+}
+.project-type {
+  font-weight: 400;
+  font-size: 16px;
 }
