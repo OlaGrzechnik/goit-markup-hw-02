@@ -1,15 +1,25 @@
 :root {
   --blue: #2196f3;
 }
+.blue {
+  color: #2196f3;
+}
 body {
   font-family: "roboto", sans-serif;
+  text-decoration: none;
 }
 .logo {
   font-family: "raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
+  padding-left: 215px;
+  padding-top: 60px;
+  margin-bottom: 20px;
 }
-
+nav {
+  font-size: 14px;
+  font-weight: 500;
+}
 a:link {
   text-decoration: none;
 }
@@ -30,7 +40,13 @@ link:focus {
 .filters {
   font-weight: 500;
   font-size: 16px;
+  margin-left: 532px;
+  margin-bottom: 34px;
 }
+ul > li {
+  display: inline-block;
+}
+
 h4 {
   font-weight: 700;
   font-size: 18px;
@@ -42,4 +58,28 @@ h4 {
 footer {
   color: white;
   background-color: black;
+  width: 1600px;
+  height: 252px;
+}
+.main-portfolio {
+  margin-left: 215px;
+  margin-right: 215px;
+  margin-top: 94px;
+}
+.contact-bottom {
+  font-style: normal;
+  margin-left: 215px;
+}
+.intro {
+  background-color: #2f303a;
+  color: white;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  padding: 200px 452px 280px 452px;
+  margin-bottom: 94px;
+}
+.main-index {
+  margin-left: 215px;
+  margin-right: 215px;
 }
