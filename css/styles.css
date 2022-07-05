@@ -1,3 +1,6 @@
+:root {
+  --blue: #2196f3;
+}
 body {
   font-family: "roboto", sans-serif;
 }
@@ -6,9 +9,7 @@ body {
   font-weight: 700;
   font-size: 26px;
 }
-.blue {
-  color: #2196f3;
-}
+
 a:link {
   text-decoration: none;
 }
@@ -37,4 +38,8 @@ h4 {
 .project-type {
   font-weight: 400;
   font-size: 16px;
+}
+footer {
+  color: white;
+  background-color: black;
 }
