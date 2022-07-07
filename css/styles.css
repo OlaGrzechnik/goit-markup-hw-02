@@ -2,27 +2,46 @@
   --blue: #2196f3;
 }
 .blue {
-  color: #2196f3;
+  color: var(--blue);
 }
 body {
-  font-family: "roboto", sans-serif;
+  font-family: "roboto", "Raleway";
   text-decoration: none;
 }
+.top {
+  border-bottom: 1px;
+  border-color: #ececec;
+}
+.top-links a:link {
+  color: #757575;
+}
+.top-links a:hover {
+  color: var(--blue);
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: var(--blue);
+}
+
 .logo {
-  font-family: "raleway", sans-serif;
+  font-family: "raleway";
   font-weight: 700;
   font-size: 26px;
   padding-left: 215px;
   padding-top: 60px;
   margin-bottom: 20px;
 }
-nav {
+.nav {
   font-size: 14px;
   font-weight: 500;
 }
-a:link {
-  text-decoration: none;
-}
+
 .no-bullets {
   list-style-type: none;
   margin: 0;
@@ -32,10 +51,7 @@ a:link {
   color: black;
 }
 .link:hover {
-  color: #2196f3;
-}
-link:focus {
-  color: #2196f3;
+  color: var(--blue);
 }
 .filters {
   font-weight: 500;
@@ -43,19 +59,18 @@ link:focus {
   margin-left: 532px;
   margin-bottom: 34px;
 }
-ul > li {
+.no-bullets > li {
   display: inline-block;
 }
 
-h4 {
+.project-title {
   font-weight: 700;
   font-size: 18px;
 }
 .project-type {
-  font-weight: 400;
   font-size: 16px;
 }
-footer {
+.footer {
   color: white;
   background-color: black;
   width: 1600px;
@@ -69,6 +84,7 @@ footer {
 .contact-bottom {
   font-style: normal;
   margin-left: 215px;
+  text-align: left;
 }
 .intro {
   background-color: #2f303a;
@@ -78,8 +94,27 @@ footer {
   line-height: 60px;
   padding: 200px 452px 280px 452px;
   margin-bottom: 94px;
+  height: 600px;
+  width: 1600px;
+  text-align: center;
 }
 .main-index {
   margin-left: 215px;
   margin-right: 215px;
+}
+.button {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "roboto";
+}
+.button:hover {
+  background-color: var(--blue);
+  color: white;
+}
+.contact-bottom-address {
+  font-style: normal;
+  text-align: left;
+}
+.contact-bottom-links a:link {
+  color: rgba(255, 255, 255, 0.6);
 }

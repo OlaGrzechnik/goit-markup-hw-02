@@ -9,35 +9,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <header>
-      <nav>
-        <a
-          class="logo"
-          href="https://olagrzechnik.github.io/goit-markup-hw-02/index.html"
-          ><span class="blue">Web</span>studio</a
-        >
-        <a><span>agencja</span></a>
-        <a
-          href="https://olagrzechnik.github.io/goit-markup-hw-02/portfolio.html"
-          >portfolio</a
-        >
-        kontakty
-      </nav>
-
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a> +48 111 111 111
+      <div class="top">
+        <nav class="nav">
+          <a
+            class="logo"
+            href="https://olagrzechnik.github.io/goit-markup-hw-02/index.html"
+            ><span class="blue">Web</span>studio</a
+          >
+          <a href="#"><span>agencja</span></a>
+          <a
+            href="https://olagrzechnik.github.io/goit-markup-hw-02/portfolio.html"
+            >portfolio</a
+          >
+          <a href="#">kontakt</a>
+        </nav>
+        <div class="top-links">
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a href="tel:+48111111111">+48 111 111 111</a>
+        </div>
+      </div>
     </header>
     <section class="main-portfolio">
       <ul class="no-bullets filters">
-        <li><button type="button">Wszystkie</button></li>
-        <li><button type="button">Strony</button></li>
-        <li><button type="button">Aplikacje</button></li>
-        <li><button type="button">Dizajn</button></li>
-        <li><button type="button">Marketing</button></li>
+        <li><button type="button" class="button">Wszystkie</button></li>
+        <li><button type="button" class="button">Strony</button></li>
+        <li><button type="button" class="button">Aplikacje</button></li>
+        <li><button type="button" class="button">Dizajn</button></li>
+        <li><button type="button" class="button">Marketing</button></li>
       </ul>
       <ul class="no-bullets">
         <li>
@@ -49,7 +53,7 @@
               height="294"
             />
             <figcaption class="project-type">
-              <h4>Technotrack</h4>
+              <h4 class="project-title">Technotrack</h4>
               <br />Strona internetowa
             </figcaption>
           </figure>
@@ -63,7 +67,7 @@
               height="294"
             />
             <figcaption>
-              <h4>Grafika New Orleans vs Golden Star</h4>
+              <h4 class="project-title">Grafika New Orleans vs Golden Star</h4>
               <br />Dizajn
             </figcaption>
           </figure>
@@ -77,7 +81,7 @@
               height="294"
             />
             <figcaption>
-              <h4>Restauracja Seafood</h4>
+              <h4 class="project-title">Restauracja Seafood</h4>
               <br />Aplikacja
             </figcaption>
           </figure>
@@ -91,7 +95,7 @@
               height="294"
             />
             <figcaption>
-              <h4>Projekt Prime</h4>
+              <h4 class="project-title">Projekt Prime</h4>
               <br />Marketing
             </figcaption>
           </figure>
@@ -100,7 +104,7 @@
           <figure>
             <img src="images/box.jpg" alt="pudełka" width="370" height="294" />
             <figcaption>
-              <h4>Projekt Boxes</h4>
+              <h4 class="project-title">Projekt Boxes</h4>
               <br />Aplikacja
             </figcaption>
           </figure>
@@ -158,13 +162,17 @@
         </li>
       </ul>
     </section>
-    <footer>
+    <footer class="footer">
       <div class="logo"><span class="blue">Web</span>Studio</div>
       <div class="contact-bottom">
-        <address>m.Warszawa, Aleje Jerozolimskie 21</address>
+        <address class="contact-bottom-address">
+          m.Warszawa, Aleje Jerozolimskie 21
+        </address>
         <br />
-        info@example.com<br />
-        +48 111 111 111
+        <div class="contact-bottom-links">
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
+          <a href="tel:+48111111111">+48 111 111 111</a>
+        </div>
       </div>
     </footer>
   </body>
