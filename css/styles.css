@@ -7,29 +7,11 @@
 body {
   font-family: "roboto", "Raleway";
   text-decoration: none;
+  color: #212121;
 }
-.top {
-  border-bottom: 1px;
-  border-color: #ececec;
-}
-.top-links a:link {
-  color: #757575;
-}
-.top-links a:hover {
-  color: var(--blue);
-}
-a:link {
+.logo-top a:link {
+  color: black;
   text-decoration: none;
-  color: black;
-}
-a:visited {
-  color: black;
-}
-a:hover {
-  color: var(--blue);
-}
-
-.logo {
   font-family: "raleway";
   font-weight: 700;
   font-size: 26px;
@@ -37,9 +19,36 @@ a:hover {
   padding-top: 60px;
   margin-bottom: 20px;
 }
+.logo-top a:visited {
+  color: black;
+}
+
+.top {
+  border-bottom: 1px;
+  border-color: #ececec;
+}
+.top-links a:link {
+  color: #757575;
+  text-decoration: none;
+}
+.top-links a:hover {
+  color: var(--blue);
+}
+
 .nav {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
+}
+.nav a:link {
+  color: black;
+  text-decoration: none;
+}
+.nav a:visited {
+  color: black;
+  text-decoration: none;
+}
+.nav a:hover {
+  color: var(--blue);
 }
 
 .no-bullets {
@@ -49,9 +58,6 @@ a:hover {
 }
 .link {
   color: black;
-}
-.link:hover {
-  color: var(--blue);
 }
 .filters {
   font-weight: 500;
@@ -106,6 +112,7 @@ a:hover {
   font-size: 16px;
   font-weight: 500;
   font-family: "roboto";
+  cursor: pointer;
 }
 .button:hover {
   background-color: var(--blue);
@@ -117,4 +124,24 @@ a:hover {
 }
 .contact-bottom-links a:link {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.contact-bottom-links a:hover {
+  color: var(--blue);
+}
+.logo-bottom {
+  font-family: "raleway";
+  font-weight: 700;
+  font-size: 26px;
+  padding-left: 215px;
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+.logo-bottom a:link {
+  text-decoration: none;
+  color: white;
+}
+.logo-bottom a:visited {
+  text-decoration: none;
+  color: white;
 }
